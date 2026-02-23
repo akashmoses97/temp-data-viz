@@ -28,7 +28,8 @@ const Legend = ({ colorScale }) => {
 
     const legendAxis = d3.axisRight(legendScale)
       .ticks(5)
-      .tickSize(6);
+      .tickSize(6)
+      .tickFormat(d => `${d}°C`);
 
     const defs = svg.append("defs");
 

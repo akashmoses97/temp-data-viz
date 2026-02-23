@@ -43,7 +43,7 @@ https://akashmoses97.github.io/temp-data-viz/
 
 ------------------------------------------------------------------------
 
-## 🗂 Project Structure
+## Project Structure
 
     temp-data-viz/
     │

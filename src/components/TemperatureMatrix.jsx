@@ -66,7 +66,7 @@ const TemperatureMatrix = () => {
     years.push(y);
   }
 
-  // ✅ Dynamically calculate required SVG height
+  // Dynamically calculate required SVG height
   const calculatedHeight =
     CONFIG.margin.top +
     monthNames.length *

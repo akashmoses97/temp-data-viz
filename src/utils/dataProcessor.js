@@ -7,7 +7,7 @@ import * as d3 from "d3";
  * - Preserves daily values
  */
 export const processTemperatureData = async () => {
-  const rawData = await d3.csv(`${import.meta.env.BASE_URL}temperature_daily.csv`, d => ({ //Base URL added for deployment
+  const rawData = await d3.csv(`${import.meta.env.BASE_URL}/temperature_daily.csv`, d => ({ //Base URL added for deployment
     date: d3.timeParse("%Y-%m-%d")(d.date),
     max: +d.max_temperature,
     min: +d.min_temperature
